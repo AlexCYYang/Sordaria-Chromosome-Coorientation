@@ -7,34 +7,34 @@ Software: MATLAB (Release 2024b, MathWorks).
 File descriptions:
 ---------------------------------------------------------------------------
 
-1. bounding_box_long_axis_vectors.m
+1. bounding_box_long_axis_vectors.m  
 – Fit each chromosome with minimum bounding box and extract the long-axis vectors of all chromosomes for coorientation calculation 
 – The output of this script is the input for Fig2_4_coorientation_mean_alpha_within_nucle.m
 - Note: This script requires the external function 'minboundbox.m' described below.
 
 
-2. Fig2_4_coorientation_mean_alpha_within_nucle.m
+2. Fig2_4_coorientation_mean_alpha_within_nucle.m  
 - Computes the intra-nuclear chromosome coorientation (mean pairwise angle alpha) for Fig. 2 and Fig. 4.
 
-3. Fig2_chromosome_space_ellipticity.m
+3. Fig2_chromosome_space_ellipticity.m  
 - Calculates the ellipticity of the chromosome space for Fig. 2.
 - Note: This script requires the external function 'ellipsoid_fit_new.m' described below.
 
-4. Fig3_coorientation_mean_alpha_across_nuclei.m
+4. Fig3_coorientation_mean_alpha_across_nuclei.m  
 - Computes the inter-nuclear chromosome coorientation across pair nuclei (mean pairwise angle alpha) for Fig. 3.
 
-5. Fig3_interface_area.m
+5. Fig3_interface_area.m  
 - Quantifies the nuclear interface area in Fig. 3. 
 
-6. Fig4_chromosome_shape_elongation.m
+6. Fig4_chromosome_shape_elongation.m  
 – Quantifies the chromosome shape elongation (EL) in Fig. 4. 
 - Note: This script requires the external function 'minboundbox.m' described below.
 
-7. Fig4_chromosome_curvature.m
+7. Fig4_chromosome_curvature.m  
 – Quantifies the chromosome curvature (average per nucleus) in Fig. 4. 
 - Note: This script requires the external function 'curvature.m' and 'circumcenter.m' (both from the same source)described below.
 
-8. Fig5_interhomolog_distance_profile
+8. Fig5_interhomolog_distance_profile.m  
 – Measure and plot the distance between homologous chromosomes along their lengths.
 
 
