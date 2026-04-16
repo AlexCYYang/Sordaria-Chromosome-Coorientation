@@ -38,6 +38,14 @@ File descriptions:
 8. Fig5_interhomolog_distance_profile.m
 - Measure and plot the distance between homologous chromosomes along their lengths.
 
+9. Supplementary_Fig_2a_random_cooriention_angle.m
+- Generates random 3D unit vectors to calculate the mathematical baseline for mean pairwise angles.
+- For the information in text and Fig. 2 (purple dashed line)
+
+10. Supplementary_Fig_2b_random_rotation_cooriention_angle.m
+- Takes actual chromosome traces (requires loading trace data) and randomly rotates each chromosome around its centroid to create a structure-preserved baseline.
+- For the information in text and Fig. 2 (purple dashed line)
+
 
 
 External functions:
